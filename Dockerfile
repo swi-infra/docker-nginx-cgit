@@ -10,7 +10,7 @@ RUN echo "deb http://security.debian.org/debian-security stretch/updates main" >
     apt-get -qy install apt-utils gettext-base \
                         fcgiwrap git cgit highlight perl spawn-fcgi \
                         ca-certificates nginx gettext-base \
-                        markdown python-docutils groff \
+                        markdown python3-docutils groff \
                         liblua5.1-0-dev lua-ldap-dev luarocks libssl1.0-dev \
                         openssh-server --fix-missing && \
     echo 'UTC' > /etc/timezone && \
